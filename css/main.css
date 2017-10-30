@@ -175,3 +175,63 @@ a:hover{
 .text p{
   font-size: 20px;
 }
+
+/*segunda sección*/
+#second-block{
+  height: 850px;
+  /*aplicando relleno para que no quede un espacio entre las secciones*/
+  padding-top: 10px;
+  background-color: white;
+}
+/*icono-estrella negra*/
+#start-black{
+  /*centrando la estrella*/
+  text-align: center;
+  color: #2c3e50;
+  font-size: 40px;
+}
+/*añadiendo líneas laterales*/
+#start-black:after {
+  content: " ";
+  /*posicionando las lineas al costado de la estrella*/
+  display: inline-block;
+  /*tamaño*/
+  width: 100px;
+  height: 5px;
+  /*color de fondo*/
+  background: #2c3e50;
+  /*posicionamiento al medio de la estrella*/
+  margin-bottom: 10px;
+}
+#start-black:before {
+  content: " ";
+  /*posicionando las lineas al costado de la estrella*/
+  display: inline-block;
+  /*tamaño*/
+  width: 100px;
+  height: 5px;
+  background: #2c3e50;
+  /*posicionamiento al medio de la estrella*/
+  margin-bottom: 10px;
+}
+
+/*container de las imágenes*/
+#second-block .container{
+  /*outline: 1px solid blue;*/
+  /*posicionamiento en el centro*/
+  margin:20px 30px 0px 120px;
+}
+/*columnas de las imágenes*/
+#second-block .box{
+  /*outline: 1px solid red;*/
+  /*las imagenes se colocan en linea pero se mantiene en bloque*/
+  display: inline-block;
+  width: 300px;
+/*espaciado laterales entre cda */
+  margin-right: 30px;
+}
+
+#second-block img{
+  width: 100%;
+  margin-bottom: 30px;
+}
