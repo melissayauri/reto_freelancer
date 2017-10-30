@@ -235,3 +235,52 @@ a:hover{
   width: 100%;
   margin-bottom: 30px;
 }
+
+/*tercera seccion*/
+#third-block {
+  background-color: #18bd9b;
+  height: 700px;
+}
+
+/*título de la tercera sección*/
+#third-block h1{
+  text-align: center;
+  color: white;
+  margin:0;
+  /*espaciado superior e inferior*/
+  padding-top: 90px;
+  padding-bottom: 10px;
+  /*tamaño de la letra*/
+  font-size: 50px;
+}
+/*contenedor de los parrafos*/
+#third-block .paragraph{
+  /*outline: 1px solid red;*/
+  margin-left: 30%;
+  width: 50%;
+}
+/*parráfos*/
+#third-block .paragraph p{
+  /*outline: 1px solid blue;*/
+  width: 40%;
+  /*se posicionan en una sola línea pero se mantienen en bloque*/
+  display: inline-block;
+  /*espaciado derecho entre cada parrafo*/
+  margin-right:20px;
+  color: white;
+}
+/*boton download*/
+.button1{
+  color: white;
+  font-size: 18px;
+  background-color: #18bd9b;
+  /*posicionamiento en el centro*/
+  margin-top: 20px;
+  margin-left: 40%;
+  /*relleno del boton*/
+  padding: 10px;
+  /*borde*/
+  border: 2px solid white;
+  /*borde circular*/
+  border-radius: 10px;
+}
