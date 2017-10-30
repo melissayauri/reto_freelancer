@@ -284,3 +284,60 @@ a:hover{
   /*borde circular*/
   border-radius: 10px;
 }
+
+/*cuarta sección*/
+.fourth-block{
+  /*outline: 1px solid red;*/
+  height: 700px;
+  /*aplicando relleno para que no exista un espacio entre secciones*/
+  padding-top: 10px;
+}
+/*formulario*/
+form{
+  width: 40%;
+  /*posicionamiento a la izquierda*/
+  margin-left: 25%;
+  margin-top: 20px;
+  /*relleno del formulario*/
+  padding: 10px;
+}
+/* selector por atributo*/
+input[type="text"]{
+  /*espaciado entre cada entrada*/
+  margin-bottom: 10px;
+  padding-bottom: 20px;
+  border: none;
+  /*borde inferior*/
+  border-bottom: 1px solid #808080;
+  /*posicionamiento debajo de uno*/
+  display: block;
+  color: #808080;
+  font-size: 25px;
+  width: 90%;
+}
+/*selector atributo al item message*/
+textarea[type="msg"]{
+  color:  #808080;
+  font-size: 25px;
+  /*aplicando relleno para que sea más grande*/
+  padding-bottom: 20px;
+  padding-right: 200px;
+  border: none;
+  /*aplicando borde inferior*/
+  border-bottom: 1px solid #808080;
+}
+/*boton del formulario*/
+.button2{
+  color: white;
+  font-size: 18px;
+  background-color: #18bd9b;
+  /*posicionamiento en el centro*/
+  margin-top: 20px;
+  margin-left:5px;
+  /*relleno del boton*/
+  padding: 10px;
+  /*borde*/
+  border: 2px solid white;
+  /*borde circular*/
+  border-radius: 10px;
+}
