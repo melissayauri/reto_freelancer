@@ -341,3 +341,74 @@ textarea[type="msg"]{
   /*borde circular*/
   border-radius: 10px;
 }
+
+/*pie de pagina*/
+footer{
+  background-color: #2c3e50;
+  height: 280px;
+  color: white;
+  /*outline:1px solid blue;*/
+}
+/*contendenor de las tres columnas*/
+footer .container1{
+  /*outline:1px solid blue;*/
+  width: 90%;
+  margin-left: 80px;
+  /*encierra a los elementos flotantes dentro del contenedor*/
+  overflow: auto;
+}
+/*columnas del pie de página*/
+footer .container1 .box1{
+  /*tamaño*/
+  width: 30%;
+  height: 200px;
+  /*posicionamineto a la izquierda de cada columna*/
+  float: left;
+  /*margen superior */
+  margin-top: 20px;
+  /*espaciado derecho entre las columnas*/
+  margin-right: 30px;
+  text-align: center;
+}
+/*título de pie de página*/
+footer .title-footer{
+  color: white;
+  font-size: 30px;
+  /*margen entre el título y el parráfo*/
+  margin-bottom: 40px;
+}
+
+/*círculo que contiene al ícono*/
+footer .box1 div{
+  /*se colocan uno tras otroen una línea*/
+  display: inline-block;
+  border: 2px solid white;
+  /*tamaño del circulo*/
+  width: 60px;
+  height: 60px;
+  /*borde circular*/
+  border-radius: 40px;
+}
+footer .box1 p{
+  font-size: 20px;
+}
+/*iconos-footer*/
+footer .box1 div i{
+  text-align: center;
+  font-size: 20px;
+  /*posicionamiento en el centro del circulo*/
+  margin-left: 8px;
+  margin-top: 20px;
+}
+/*texto en la tercera columna*/
+footer .box1 .text-green{
+  color:  #18bd9b;
+}
+/*último texto*/
+footer .container1 .last-block  {
+  text-align: center;
+  font-size: 15px;
+  margin-right: 50px;
+  margin-top: 260px;
+  margin-bottom: 0;
+}
