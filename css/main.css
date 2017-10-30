@@ -106,3 +106,72 @@ a:hover{
   /*background: #18bd9b*/
   color: #18bd9b;
 }
+
+/*primera seccion*/
+#first-block{
+  /*outline: 1px solid red;*/
+  /*aplicando color de fondo*/
+  background-color: #18bd9b;
+  height: 670px;
+}
+/*imagen en la primera sección*/
+#first-block img{
+  /*centrando la imagen*/
+  margin-left:40% ;
+  margin-top: 150px;
+  /*ancho*/
+  width: 18%;
+}
+/*contenedor del texto*/
+#first-block .text{
+  /*centrando los textos en su interior*/
+  text-align: center;
+  color: white;
+}
+/*titulo de la primera sección*/
+#first-block .text .title-white{
+  /*outline: 1px solid red;*/
+  font-size: 80px;
+  /*espacio superior e inferior*/
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+/*posicionando la estrella blanca*/
+#start-white{
+  text-align: center;
+  color: white;
+  font-size: 40px;
+}
+
+/*aplicando línea laterale a la estrella*/
+#start-white:after {
+  /*no se aplica ningun texto*/
+  content: " ";
+  /*se posiciona al lado de la estrella*/
+  display: inline-block;
+  /*tamaño de la linea*/
+  width: 100px;
+  height: 5px;
+  /*color de fondo*/
+  background: white;
+  /*posicionamiento al medio de la estrella*/
+  margin-bottom: 10px;
+}
+#start-white:before {
+  /*no se aplica ningun texto*/
+  content: " ";
+  /*se posiciona al lado de la estrella*/
+  display: inline-block;
+  /*tamaño de la linea*/
+  width: 100px;
+  height: 5px;
+  /*color de fondo*/
+  background: white;
+  /*posicionamiento al medio de la estrella*/
+  margin-bottom: 10px;
+}
+
+/*parráfo de la primera sección*/
+.text p{
+  font-size: 20px;
+}
